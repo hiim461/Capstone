@@ -26,11 +26,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/nav-overlay.css">
+    <!-- Theme switch  -->
+    <link rel="stylesheet" href="./css/themeSwitch.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
-<body>
+<body id="myBody">
     <!-- CAROUSEL -->
     <section class="capstone-banner" id="home">
         <div class="container">
@@ -53,13 +55,12 @@
                         <div class="mobile-position">
                             <nav class="navigation">
                                 <div class="theme-switch-wrapper">
-                                    <label class="theme-switch" for="checkbox">
-                                        <input type="checkbox" id="checkbox">
+                                    <button class="theme-switch" id="checkbox" title="Click to switch theme">
                                         <div class="mode-container">
                                             <i class="fa fa-sun"></i>
                                             <i class="fa fa-moon"></i>
                                         </div>
-                                    </label>
+                                    </button>
                                 </div>
                             </nav>
                         </div>
@@ -418,39 +419,14 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
     <!-- theme js  -->
-    <script src="./js/theme-change.js"></script>
+    <script src="./js/themeSwitch.js"></script>
 
     <!-- nav  -->
     <script src="./js/modernizr-2.6.2.min.js"></script>
     <script src="./js/classie.js"></script>
     <script src="./js/demo1.js"></script>
 
-    <!-- <script>
-        $(window).on("scroll", function () {
-          var scroll = $(window).scrollTop();
-    
-          if (scroll >= 80) {
-            $("#site-header").addClass("nav-fixed");
-          } else {
-            $("#site-header").removeClass("nav-fixed");
-          }
-        });
-    
-        //Main navigation Active Class Add Remove
-        $(".navbar-toggler").on("click", function () {
-          $("header").toggleClass("active");
-        });
-        $(document).on("ready", function () {
-          if ($(window).width() > 991) {
-            $("header").removeClass("active");
-          }
-          $(window).on("resize", function () {
-            if ($(window).width() > 991) {
-              $("header").removeClass("active");
-            }
-          });
-        });
-      </script> -->
+
 </body>
 
 </html>

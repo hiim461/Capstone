@@ -166,8 +166,12 @@ h1 a.logo-brand {
 
 .capstone-right-content .search-bar {
     display: flex;
+    flex: 1;
+    margin: 0 auto;
 }
-
+.capstone__logo h1{
+    margin: 0;
+}
 .capstone-right-content .search-bar .search .search__input {
     display: flex;
     flex: 1;
@@ -183,6 +187,8 @@ h1 a.logo-brand {
     background: #fff;
     outline: 0;
     border: 1px solid #fff;
+    width: 243px;
+    
 }
 
 .capstone-right-content .search-bar .search .search__icon {
@@ -208,16 +214,21 @@ h1 a.logo-brand {
     margin: 0;
 }
 
-.theme-switch input {
-    display: none;
+.capstone_menu #checkbox {
+    border: transparent;
+    background: transparent;
+    cursor: auto !important;
+    outline: none !important;
 }
 
 .mode-container {
     width: 24px;
     height: 24px;
     padding: 1px 0;
+    font-size: 24px;
 }
 
+/*  */
 .mode-container i.fa-sun {
     display: none;
     color: #eee;
@@ -491,10 +502,12 @@ button:focus {
 .box-wrap:hover {
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
 }
+
 .box-wrap:hover .icon {
     background-color: var(--primary-color);
     transition: 0.3s ease-in-out;
-  }
+}
+
 .box-wrap:hover .icon span.fa {
     color: #fff;
     transition: 0.3s ease-in-out;
@@ -538,3 +551,27 @@ button:focus {
 
 
 /* FOOTER   */
+
+/* RESPONSIVE */
+
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/* Nav */
+@media screen and (max-height: 30.5em){
+    .overlay nav {
+        height: 70%;
+        font-size: 34px;
+    }
+    .overlay ul li {
+        min-height: 34px;
+    }
+}
+
+
+
+  
