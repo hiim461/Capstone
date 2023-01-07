@@ -263,6 +263,10 @@ button#trigger-overlay {
 .w3l-agent-block {
     background: var(--primary-color);
 }
+.w3l-agent-block .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
 .agent-block-image {
     background: url(../img/banner3.jpg) no-repeat center;
     background-size: cover;
@@ -1082,11 +1086,15 @@ button#trigger-overlay {
     list-style: none;
     margin-bottom: 10px;
 }
+.w3l-footer-29-main .footer-list-29 ul li a:hover, .w3l-copyright .footer-list-29 ul li a:hover, .w3l-footer-29-main a:hover {
+    color: var(--primary-color);
+}
 .main-social-footer-29 a:hover {
     background: var(--primary-color);
     transition: 0.3s;
     color: #fff;
 }
+
 .btn-primary:hover {
     color: #fff;
     background-color: var(--primary-color);
