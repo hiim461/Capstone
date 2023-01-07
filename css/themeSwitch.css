@@ -85,3 +85,7 @@
 .dark .main-social-footer-29 a {
   background: #232220;
 }
+.dark .w3l-footer-29-main .subscribe input[type="email"]:focus {
+  border: 1px solid var(--primary-color);
+  background-color:#232220 ;
+}

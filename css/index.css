@@ -564,9 +564,6 @@ button#trigger-overlay {
 }
 
 /* TESTIMONIALS  */
-
-
-/* FOOTER   */
 .container {
     width: 100%;
     padding-right: 15px;
@@ -578,19 +575,10 @@ button#trigger-overlay {
     max-width: 700px;
     margin: auto;
   }
-<<<<<<< HEAD
+  
 #owl-agency .owl-dots .owl-dot{
   padding: 1px 6px;
 }
-=======
-<<<<<<< HEAD
-#owl-agency .owl-dots .owl-dot{
-  padding: 1px 6px;
-}
-=======
-
->>>>>>> 6560940b173adc04e0169f3f17d63cae26d2ecf9
->>>>>>> afb7d9f686fd7e70b01d421aec72f276b7b4e3f9
   .w3l-clients .testi-des {
     display: flex;
     text-align: center;
