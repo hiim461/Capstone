@@ -26,11 +26,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/nav-overlay.css">
+    <!-- Theme switch  -->
+    <link rel="stylesheet" href="./css/themeSwitch.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
-<body>
+<body id="myBody">
     <!-- CAROUSEL -->
     <section class="capstone-banner" id="home">
         <div class="container">
@@ -53,13 +55,12 @@
                         <div class="mobile-position">
                             <nav class="navigation">
                                 <div class="theme-switch-wrapper">
-                                    <label class="theme-switch" for="checkbox">
-                                        <input type="checkbox" id="checkbox">
+                                    <button class="theme-switch" id="checkbox" title="Click to switch theme">
                                         <div class="mode-container">
                                             <i class="fa fa-sun"></i>
                                             <i class="fa fa-moon"></i>
                                         </div>
-                                    </label>
+                                    </button>
                                 </div>
                             </nav>
                         </div>
@@ -115,16 +116,12 @@
                     href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/about.html">
                     Read More <span class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
             </div>
-            <!--/bannerCapstone-info-->
-
+            <!--//bannerCapstone-info-->
         </div>
         <!--//banner-with-header-->
-
     </section>
     <!-- INTRODUCE -->
     <section>
-
-        <!-- /content-1-->
         <div class="w31-content-1 py-5">
             <div class="py-md-5 container">
                 <div class="content-1-grids row">
@@ -150,18 +147,15 @@
                 </div>
             </div>
         </div>
-        <!-- //content-1-->
         <div tyle="margin: 8px auto; display: block; text-align:center;">
             <!---728x90--->
-
         </div>
-        <!--/w3l-agents-block-->
+        <!--/agents-block-->
         <div class="w3l-agent-block" id="why">
             <div class="container-fluid px-lg-0">
                 <div class="align-items-center row no-gutters">
                     <div class="col-lg-6 px-lg-0 pt-lg-0 pt-5">
                         <div class="agent-block-image">
-
                         </div>
                     </div>
                     <div class="col-lg-6 px-lg-4 py-lg-3 py-4">
@@ -192,11 +186,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-        <!--//w3l-agents-block-->
+        <!--//agents-block-->
     </section>
     <!-- CATEGORIES -->
     <section class="w3l-res-categories py-5">
@@ -274,15 +266,11 @@
                         <h6 class="mt-sm-2 mt-1"><span>$850</span></h6>
                     </div>
                 </div>
-
             </div>
         </div>
-
     </section>
     <div style="margin: 8px auto; display: block; text-align:center;">
-
         <!---728x90--->
-
     </div>
     <!-- DESCRIPTION -->
     <section id="features" class="description py-5">
@@ -377,7 +365,6 @@
     </section>
     <!-- //DESCRIPTION -->
     <div style="margin: 8px auto; display: block; text-align:center;">
-
         <!---728x90--->
     </div>
     <!-- DELICIOUSNESS -->
@@ -719,7 +706,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
     <!-- theme js  -->
-    <script src="./js/theme-change.js"></script>
+    <script src="./js/themeSwitch.js"></script>
 
     <!-- nav  -->
     <script src="./js/modernizr-2.6.2.min.js"></script>
@@ -729,32 +716,7 @@
     <script src="js/owl.carousel.js"></script>
     <script src="js/testimonial.js"></script>
 
-    <!-- <script>
-        $(window).on("scroll", function () {
-          var scroll = $(window).scrollTop();
-    
-          if (scroll >= 80) {
-            $("#site-header").addClass("nav-fixed");
-          } else {
-            $("#site-header").removeClass("nav-fixed");
-          }
-        });
-    
-        //Main navigation Active Class Add Remove
-        $(".navbar-toggler").on("click", function () {
-          $("header").toggleClass("active");
-        });
-        $(document).on("ready", function () {
-          if ($(window).width() > 991) {
-            $("header").removeClass("active");
-          }
-          $(window).on("resize", function () {
-            if ($(window).width() > 991) {
-              $("header").removeClass("active");
-            }
-          });
-        });
-      </script> -->
+
 </body>
 
 </html>
