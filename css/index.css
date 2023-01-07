@@ -283,11 +283,22 @@ button#trigger-overlay {
     color: #fff;
     border-radius: 6px;
 }
-
-button:focus {
+<<<<<<< HEAD
+.overlay button:focus {
     outline: 5px auto -webkit-focus-ring-color !important;
 }
+=======
+<<<<<<< HEAD
 
+
+
+
+=======
+.overlay button:focus {
+    outline: 5px auto -webkit-focus-ring-color !important;
+}
+>>>>>>> 6560940b173adc04e0169f3f17d63cae26d2ecf9
+>>>>>>> afb7d9f686fd7e70b01d421aec72f276b7b4e3f9
 /* INTRODUCE  */
 
 .title-subhny {
