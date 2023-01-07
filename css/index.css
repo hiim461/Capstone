@@ -242,22 +242,9 @@ button#trigger-overlay {
     color: #fff;
     border-radius: 6px;
 }
-<<<<<<< HEAD
 .overlay button:focus {
     outline: 5px auto -webkit-focus-ring-color !important;
 }
-=======
-<<<<<<< HEAD
-
-
-
-
-=======
-.overlay button:focus {
-    outline: 5px auto -webkit-focus-ring-color !important;
-}
->>>>>>> 6560940b173adc04e0169f3f17d63cae26d2ecf9
->>>>>>> afb7d9f686fd7e70b01d421aec72f276b7b4e3f9
 /* INTRODUCE  */
 .title-subhny {
     font-size: 20px;
@@ -591,8 +578,7 @@ button#trigger-overlay {
     line-height: 36px;
     color: var(--heading-color);
     font-weight: 600;
-  }
-
+  } 
   .w3l-clients a.comment-img {
     left: 0px;
     top: 0px;
@@ -1100,36 +1086,13 @@ button#trigger-overlay {
     margin-bottom: 10px;
 }
 .w3l-footer-29-main .footer-list-29 ul li a:hover, .w3l-copyright .footer-list-29 ul li a:hover, .w3l-footer-29-main a:hover {
-<<<<<<< HEAD
     color: var(--primary-color);
-}
-.w3l-footer-29-main .footer-list-29 ul li a:hover, .w3l-copyright .footer-list-29 ul li a:hover, .w3l-footer-29-main a:hover {
-  color: var(--primary-color);
-=======
-<<<<<<< HEAD
-  color: var(--primary-color);
-=======
-    color: var(--primary-color);
->>>>>>> e064a7f6cdcca508a98e6e130b0abd8b95361245
->>>>>>> afb7d9f686fd7e70b01d421aec72f276b7b4e3f9
 }
 .main-social-footer-29 a:hover {
     background: var(--primary-color);
     transition: 0.3s;
     color: #fff;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 6560940b173adc04e0169f3f17d63cae26d2ecf9
-=======
-
->>>>>>> e064a7f6cdcca508a98e6e130b0abd8b95361245
->>>>>>> afb7d9f686fd7e70b01d421aec72f276b7b4e3f9
 .btn-primary:hover {
     color: #fff;
     background-color: var(--primary-color);
