@@ -565,7 +565,9 @@ button#trigger-overlay {
     max-width: 700px;
     margin: auto;
   }
-
+#owl-agency .owl-dots .owl-dot{
+  padding: 1px 6px;
+}
   .w3l-clients .testi-des {
     display: flex;
     text-align: center;
@@ -1089,11 +1091,15 @@ button#trigger-overlay {
 .w3l-footer-29-main .footer-list-29 ul li a:hover, .w3l-copyright .footer-list-29 ul li a:hover, .w3l-footer-29-main a:hover {
     color: var(--primary-color);
 }
+.w3l-footer-29-main .footer-list-29 ul li a:hover, .w3l-copyright .footer-list-29 ul li a:hover, .w3l-footer-29-main a:hover {
+  color: var(--primary-color);
+}
 .main-social-footer-29 a:hover {
     background: var(--primary-color);
     transition: 0.3s;
     color: #fff;
 }
+
 
 .btn-primary:hover {
     color: #fff;
