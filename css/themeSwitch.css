@@ -82,10 +82,21 @@
 .dark .w3l-footer-29-main input[type="email"]{
   background:#232220;
 }
-.dark .main-social-footer-29 a {
+/* .dark .main-social-footer-29 a {
   background: #232220;
-}
+} */
 .dark .w3l-footer-29-main .subscribe input[type="email"]:focus {
   border: 1px solid var(--primary-color);
   background-color:#232220 ;
 }
+.dark .stat__list {
+  background-color: #232220;}
+  .dark .stat__list h1{
+    color: #eee;
+  }
+  .dark .stat__list p {
+    color: #c2d0da
+  }
+  .dark .w3l-footer-29-main input[type="email"]{
+    background: #232220;
+  }
