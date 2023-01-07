@@ -270,6 +270,10 @@ button#trigger-overlay {
 .w3l-agent-block {
     background: var(--primary-color);
 }
+.w3l-agent-block .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
 .agent-block-image {
     background: url(../img/banner3.jpg) no-repeat center;
     background-size: cover;
@@ -1096,7 +1100,11 @@ button#trigger-overlay {
     margin-bottom: 10px;
 }
 .w3l-footer-29-main .footer-list-29 ul li a:hover, .w3l-copyright .footer-list-29 ul li a:hover, .w3l-footer-29-main a:hover {
+<<<<<<< HEAD
   color: var(--primary-color);
+=======
+    color: var(--primary-color);
+>>>>>>> e064a7f6cdcca508a98e6e130b0abd8b95361245
 }
 .main-social-footer-29 a:hover {
     background: var(--primary-color);
@@ -1104,9 +1112,13 @@ button#trigger-overlay {
     color: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 6560940b173adc04e0169f3f17d63cae26d2ecf9
+=======
+
+>>>>>>> e064a7f6cdcca508a98e6e130b0abd8b95361245
 .btn-primary:hover {
     color: #fff;
     background-color: var(--primary-color);
